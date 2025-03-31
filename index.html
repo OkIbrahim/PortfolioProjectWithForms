@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Project With Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Okunola Ibrahim Olatunji</h1>
+    <img src="./tunji.jpg" alt="Ibrahim" class="ibro" />
+    <h2 class="summary">Summary</h2>
+    <p class="short-info">
+      I am a result-oriented, hardworking and dedicated individual with a
+      Bachelor's degree in Mathematics from the University Of Lagos. A
+      full-stack web developer by profession.
+    </p>
+    <hr />
+    <h2 class="education">Education</h2>
+    <ul>
+      <li class="edu">
+        Secondary School leaving certificate, Igbobi College Yaba (2006-2011).
+      </li>
+      <li class="edu">
+        Bachelor Of Science, Mathematics - University Of Lagos (2018-2024).
+      </li>
+    </ul>
+    <hr />
+    <h2 class="experience">Work Experience</h2>
+    <ul>
+      <li class="exp">Math teacher, Ogunlade College Ijegun (2024).</li>
+      <li class="exp">HNG Tech Intern (Jan 2025).</li>
+    </ul>
+    <hr />
+    <h2 class="skills">Skills</h2>
+    <ul>
+      <li class="ski">Organizational Skills: ⭐⭐⭐⭐⭐</li>
+      <li class="ski">Time management: ⭐⭐⭐⭐⭐</li>
+      <li class="ski">Assertiveness: ⭐⭐⭐⭐⭐</li>
+    </ul>
+    <hr />
+    <h2 class="awards">Awards and Certifications</h2>
+    <img
+      src="./IMG_20250330_002022.jpg"
+      alt="education certificate"
+      class="namsn"
+    />
+    <hr />
+    <h2 class="other">Others</h2>
+    <ul>
+      <li class="hobbies"><a href="hobbies.html" class="hob">My Hobbies</a></li>
+      <li class="contact"><a href="contact.html" class="con">Contact Me</a></li>
+    </ul>
+    <br />
+    <br />
+    <br />
+    <h2 id="reg">Registration Form</h2>
+    <h3 id="fill">Please fill out this form with the required information</h3>
+    <fieldset>
+      <form action="/welcome.html" method="get" target="_blank">
+        <label for="fName">Enter Your First Name:</label> <br />
+        <input type="text" name="fName" id="fName" size="40" required />
+        <label for="lName">Enter Your Last Name:</label> <br />
+        <input type="text" name="lName" id="lName" size="40" required />
+        <label for="email">Enter Your Email:</label> <br />
+        <input type="text" name="email" id="email" size="40" required />
+        <label for="password">Create a New Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          size="40"
+          pattern="[A-Za-z0-9]{10}"
+          title="10 characters, numbers and alphabets inclusive"
+          required
+        />
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend>Account type(required)</legend>
+      <form action="/welcome.html" method="get" target="_blank">
+        <input type="radio" name="personal" id="personal" checked />
+        <label for="personal">Personal</label> <br />
+        <input type="radio" name="business" id="business" class="inline" />
+        <label for="business">Business</label>
+      </form>
+    </fieldset>
+    <fieldset>
+      <form action="/welcome.html" method="get" target="_blank">
+        <label for="files">Upload a profile picture:</label>
+        <input type="file" name="files" id="files" /> <br />
+        <label for="age">Input Your Age(Years):</label> <br />
+        <input type="text" name="age" id="age" /> <br />
+        <label for="info">How did you hear about me?</label> <br />
+        <select id="referrer" name="referrer" required>
+          <option value="">Select one</option>
+          <option value="1">social media</option>
+          <option value="2">through a friend</option>
+          <option value="3">in the streets</option>
+        </select>
+        <label for="bio">Provide a bio:</label> <br />
+        <textarea
+          name="bio"
+          id="bio"
+          cols="38"
+          rows="3"
+          placeholder="I like skating..."
+        ></textarea>
+        <input type="checkbox" name="t&c" id="t&c" required />
+        <label for="t&c">I accept, take me to your blog</label> <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </fieldset>
+    <footer>© Okunola Ibrahim. All rights reserved.</footer>
+  </body>
+</html>

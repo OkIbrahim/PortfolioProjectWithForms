@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: khaki;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(69, 123, 167);
+}
+
+.ibro {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.summary {
+  font-weight: bolder;
+  color: tomato;
+  font-size: 48px;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+
+.short-info {
+  font-size: 24px;
+  margin-left: 40px;
+  color: tomato;
+  margin-top: 0;
+}
+
+.education {
+  color: rgb(2, 207, 105);
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0 auto 0 40px;
+}
+
+ul {
+  margin-top: 0;
+}
+
+.edu {
+  list-style: none;
+  color: rgb(2, 207, 105);
+  font-size: 24px;
+}
+
+.experience {
+  color: rgb(115, 2, 207);
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0 auto 0 40px;
+}
+
+.exp {
+  list-style: none;
+  color: rgb(115, 2, 207);
+  font-size: 24px;
+}
+
+.skills {
+  color: rgba(158, 32, 127, 0.822);
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0 auto 0 40px;
+}
+
+.ski {
+  list-style: none;
+  color: rgba(158, 32, 127, 0.822);
+  font-size: 24px;
+}
+
+.awards {
+  color: rgba(43, 6, 17, 0.808);
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0 auto 0 40px;
+}
+
+.namsn {
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.other {
+  color: rgba(14, 165, 14, 0.774);
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0 auto 0 40px;
+}
+
+.hobbies,
+.contact {
+  font-size: 28px;
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+.hob,
+.con {
+  color: rgba(14, 165, 14, 0.774);
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#reg,
+#fill {
+  text-align: center;
+}
+
+#reg {
+  font-size: 36px;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+input {
+  margin: 5px 0 5px 0;
+}
+
+fieldset {
+  width: 30%;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 3px solid grey;
+  margin-bottom: 5px;
+}
+
+.inline {
+  margin-bottom: 20px;
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+select {
+  margin: 8px auto;
+  width: 100%;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 0.5em auto;
+  cursor: pointer;
+}
+
+textarea {
+  margin-bottom: 15px;
+}
